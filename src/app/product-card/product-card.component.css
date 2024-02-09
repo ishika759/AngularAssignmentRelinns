@@ -1,0 +1,78 @@
+.card-container {   /*but property lag hi ni ri*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items:flex-start;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 15rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+    
+  }
+  
+  .card-body {
+    padding: 12px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 0.8rem;
+    color: #555;
+  }
+  
+  .ratings {
+    margin: 8px 0;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .star {
+    color: #ffcc00;
+  }
+  
+  
+  
+  .wishlist-icon {
+    font-size: 1.5rem;
+    color: red;
+    
+  }
+  .btn-primary {
+    background-color: #4caf50; 
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #45a049; 
+  }
+  
+  
